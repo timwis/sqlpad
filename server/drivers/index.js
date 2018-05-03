@@ -72,6 +72,7 @@ function requireValidate(path) {
 
 // Loads and validates drivers
 // Will populate drivers {} map
+requireValidate('../drivers/carto')
 requireValidate('../drivers/crate')
 requireValidate('../drivers/hdb')
 requireValidate('../drivers/mysql')
